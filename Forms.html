@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <style>
+        body{
+background-color: gold;
+            text-align: center;
+        }
+checkbox{
+    background-color: gold;
+}
+
+
+        Form{
+            border: 10px; 10px; 10px;
+            padding: 20px;
+            margin: auto;
+            text-align: center;
+            background-color: red;
+            width: 50%;
+
+
+        }
+        label{
+            display: inline-block;
+        }
+input{
+    padding: 5px;
+    background-color: gold;
+}
+    </style>
+
+</head>
+<body>
+<style>
+    body{
+
+    }
+    textarea{
+      border: black;
+        background-color: gold;
+        border-radius: 20px;
+
+
+    }
+</style>
+<h2>Emoblilis Students Registration Forms</h2>
+<form action="Divs.html" method="post" autocomplete="on">
+    <fieldset>
+        <legend>Personal Information</legend>
+
+
+    <label for="fname">First Name</label><br>
+    <input type="text"id="fname" placeholder="Enter first name"><br>
+
+    <label for="sname">Last Name</label><br>
+    <input type="text"id="sname"placeholder="Enter Last Name"><br>
+
+    <label for="mgender">Male</label>
+    <input type="radio"id="mgender" name="gender" value="Male>
+
+    <label for="fgender">Female</label>
+    <input type="radio"id="fgender" name="gender" value="Female"><br>
+
+    <label for="email">Email Address</label><br>
+    <input type="email"id="email" placeholder="Enter your Email Address"><br>
+
+    <label for="password">Password</label><br>
+    <input type="password"id="password" placeholder="Enter Password"><br>
+
+    <label for="dob">Date of Birth</label><br>
+    <input type="date"id="dob"><br>
+
+    <textarea name="massage" id="massage" cols="20" rows="5" placeholder="Massage"></textarea><br>
+
+    <label for="courses">courses</label>
+    <select name="course" id="courses">
+        <option value="mit">Mit</option>
+        <option value="python">Python</option>
+        <option value="javascript">Javascript</option>
+        <option value="laravel">Laravel</option>
+    </select><br>
+
+    <label for="morning">morning</label><br>
+    <input type="checkbox"id="morning" name="class" value="morning"><br>
+
+    <label for="evening">evening</label><br>
+    <input type="checkbox"id="evening" name="class" value="evening"><br>
+
+    <label for="online">online</label><br>
+    <input type="checkbox"id="online" name="class" value="online"><br>
+
+
+    <input type="submit"value="Register here!"><br>
+
+    <button type="button" onclick="alert ('welcome to Sham Nails')">Bonyeza</button>
+
+    </fieldset>
+</form>
+</body>
+</html>
